@@ -1,0 +1,33 @@
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(/src/images/header-bg-mobile.jpg);
+  background-size: cover;
+  background-position: right;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.header_title {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 44px;
+  color: #fff;
+}
+
+.header_bottom {
+  padding: 0 20px 40px;
+}
