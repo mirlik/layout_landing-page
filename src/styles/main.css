@@ -1,0 +1,158 @@
+/* #region page */
+.page {
+  /* color: #fff; */
+  font-size: 16px;
+  line-height: 140%;
+
+  scroll-behavior: smooth;
+}
+
+.page_body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+/* #endregion */
+
+/* #region header */
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(/src/images/header-bg-mobile.jpg);
+  background-size: cover;
+  background-position: right;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.top-bar__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.header_title {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 44px;
+  color: #fff;
+}
+
+.header_bottom {
+  padding: 0 20px 40px;
+}
+
+/* #endregion */
+
+/* #region menu */
+.top-bar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #C2C2C2;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.menu__top {
+  margin-bottom: 24px;
+}
+
+.menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.menu__phone-number {
+  font-size: 16px;
+  line-height: 27px;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.menu__book-test {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #1D1D1D;
+  width: fit-content;
+}
+
+.top-bar__logo {
+  display: flex;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+.menu__nav {
+  margin-bottom: 40px;
+}
+
+/* #endregion */
+
+/* #region nav */
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+}
+
+/* #endregion */
+
+/* #region icon */
+.icon {
+  height: 24px;
+  width: 24px;
+  display: block;
+}
+
+.icon--phone {
+  background-image: url(/src/images/icons/icon-phone.png);
+}
+
+.icon--menu {
+  background-image: url(/src/images/icons/icon-burger-menu.png);
+}
+
+.icon--close {
+  background-image: url(/src/images/icons/icon-close.png);
+}
+
+/* #endregion */
