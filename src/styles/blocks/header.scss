@@ -1,11 +1,11 @@
 .header {
+  display: none !important;
+
   box-sizing: border-box;
   height: 100vh;
   background-image: url(/src/images/header-bg-mobile.jpg);
   background-size: cover;
   background-position: right;
-
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
 
@@ -30,7 +30,4 @@
   &__bottom {
     padding: 0 20px 40px;
   }
-
 }
-
-
