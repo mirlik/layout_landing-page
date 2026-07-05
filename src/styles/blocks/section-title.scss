@@ -1,28 +1,28 @@
 .section__title {
   margin: 0;
-  font-weight: 500;
-  text-align: center;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -1.5px;
   margin-bottom: 48px;
 
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 100%;
   color: $main-white-color;
+  text-align: center;
+  letter-spacing: -1.5px;
 
   @include on-tablet {
-    font-size: 48px;
     grid-column: 1 / 4;
+    font-size: 48px;
   }
 
   @include on-desktop {
-    font-size: 64px;
     grid-column: 1 / 5;
+    font-size: 64px;
   }
 
   &--move-free {
-    text-align: left;
     margin: 0;
     margin-bottom: 32px;
+    text-align: left;
   }
 
   &--contacts {

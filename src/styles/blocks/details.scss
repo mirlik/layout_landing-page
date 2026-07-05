@@ -9,8 +9,8 @@
   }
 
   &__button-container {
-    margin: auto;
     justify-content: center;
+    margin: auto;
     margin-top: 40px;
 
     @include on-tablet {
