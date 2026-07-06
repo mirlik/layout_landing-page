@@ -16,7 +16,7 @@
     "update": "mate-scripts update",
     "postinstall": "npm run update",
     "test": "npm run lint && npm run test:only",
-    "start": "parcel --open",
+    "start": "parcel index.html --open -p 3000",
     "build": "parcel build --public-url=/dist/"
   },
   "keywords": [],
